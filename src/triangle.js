@@ -4,5 +4,5 @@ export function Triangle(side1, side2, side3) {
   this.side3 = side3;
 }
 Triangle.prototype.checkType = function () {
-  // Code will go here
+  return "not a triangle";
 };
